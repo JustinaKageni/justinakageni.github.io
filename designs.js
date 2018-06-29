@@ -8,6 +8,7 @@ $('#sizePicker').submit(function(event){
 	height= $('#inputHeight').val();
 	//width of the grid
 	width= $('#inputWeight').val();
+	//grid=height*width
 	makeGrid(height,width);
 })
 
@@ -17,6 +18,7 @@ $('#sizePicker').submit(function(event){
 function makeGrid(y,z) {
 	$('tr').remove();
 // Your code goes here!	
+	//nested for loop
 	for(var i = 1; i <= y; i++){
 	    $('#pixelCanvas').append('<tr id=table' + i +'></tr>');
 	    for(var j = 1; j <= z; j++){
