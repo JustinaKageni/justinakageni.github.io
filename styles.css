@@ -16,6 +16,7 @@ h2 {
 
 h2:first-of-type {
     margin-top: 0.5em;
+    color:purple;
 }
 
 table,
