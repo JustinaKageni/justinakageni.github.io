@@ -1,3 +1,5 @@
 # justinakageni.github.io
-this my web app for Google Africa challenge.
-its a pixel art maker
+This my web app for Google Africa challenge.
+Its a pixel art maker
+This is the link to the web app.  https://justinakageni.github.io/
+
